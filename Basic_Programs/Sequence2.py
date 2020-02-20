@@ -1,0 +1,5 @@
+values=input("enter the numbers")
+list=values.split(",")
+tuple=tuple(list)
+print("LIST",list)
+print("TUPLE",tuple)
