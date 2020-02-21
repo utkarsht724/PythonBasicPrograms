@@ -1,6 +1,8 @@
-str=" 22.455"
-print("original",str)
-str=str.ljust(7,'0')
-print(str)
-str=str.ljust(19,'0')
-print(str)
+def leading_zero():
+    str=" 22.455"
+    print("original string",str)
+    str=str.ljust(12,'0')
+    print(str)
+    str=str.ljust(50,'0')
+    print(str)
+leading_zero()
